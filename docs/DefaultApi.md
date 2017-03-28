@@ -23,9 +23,9 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 # Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
 swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
@@ -55,7 +55,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code), [oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials)
+[oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials), [oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code)
 
 ### HTTP request headers
 
@@ -78,9 +78,9 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 # Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
 swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
@@ -110,7 +110,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code), [oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials)
+[oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials), [oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code)
 
 ### HTTP request headers
 
@@ -133,9 +133,9 @@ import swagger_client
 from swagger_client.rest import ApiException
 from pprint import pprint
 
-# Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
-swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 # Configure OAuth2 access token for authorization: oauth_2_0_client_credentials
+swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
+# Configure OAuth2 access token for authorization: oauth_2_0_authorization_code
 swagger_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code), [oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials)
+[oauth_2_0_client_credentials](../README.md#oauth_2_0_client_credentials), [oauth_2_0_authorization_code](../README.md#oauth_2_0_authorization_code)
 
 ### HTTP request headers
 

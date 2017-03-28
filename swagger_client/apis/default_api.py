@@ -152,7 +152,7 @@ class DefaultApi(object):
             select_header_content_type(['application/json; charset=ISO-8859-1'])
 
         # Authentication setting
-        auth_settings = ['oauth_2_0_authorization_code', 'oauth_2_0_client_credentials']
+        auth_settings = ['oauth_2_0_client_credentials', 'oauth_2_0_authorization_code']
 
         return self.api_client.call_api(resource_path, 'POST',
                                             path_params,
@@ -267,7 +267,7 @@ class DefaultApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['oauth_2_0_authorization_code', 'oauth_2_0_client_credentials']
+        auth_settings = ['oauth_2_0_client_credentials', 'oauth_2_0_authorization_code']
 
         return self.api_client.call_api(resource_path, 'GET',
                                             path_params,
@@ -390,7 +390,7 @@ class DefaultApi(object):
             select_header_content_type(['application/json'])
 
         # Authentication setting
-        auth_settings = ['oauth_2_0_authorization_code', 'oauth_2_0_client_credentials']
+        auth_settings = ['oauth_2_0_client_credentials', 'oauth_2_0_authorization_code']
 
         return self.api_client.call_api(resource_path, 'GET',
                                             path_params,
