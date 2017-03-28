@@ -225,7 +225,7 @@ class Configuration(object):
         """
         return {
 
-            'oauth_2_0_client_credentials': 
+            'oauth_2_0_authorization_code': 
                 {
                     'type': 'oauth2',
                     'in': 'header',
@@ -233,7 +233,7 @@ class Configuration(object):
                     'value': 'Bearer ' + self.access_token
                 },
 
-            'oauth_2_0_authorization_code': 
+            'oauth_2_0_client_credentials': 
                 {
                     'type': 'oauth2',
                     'in': 'header',
